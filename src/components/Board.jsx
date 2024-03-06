@@ -8,7 +8,6 @@ const BoardWrapper = styled.div`
   justify-content: center;
   align-items: center;
   background-color: transparent;
-  font-family: 'Roboto', sans-serif;
 `;
 
 
