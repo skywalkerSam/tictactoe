@@ -8,7 +8,6 @@ const BoardWrapper = styled.div`
   justify-content: center;
   align-items: center;
   background-color: transparent;
-  color: red;
 `;
 
 
@@ -46,7 +45,7 @@ export function Board() {
     return (
         <BoardWrapper>
             <div>
-                <div className="status mt5 mb3 f1 red hover-green">
+                <div className="status mt5 mb3 f1 red">
                     {status}
                 </div>
                 <div className="board-row">
