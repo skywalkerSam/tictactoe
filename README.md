@@ -1,2 +1,2 @@
 # Tic Tac Toe
-A simple Tic-tac-toe application made with React.
+A simple tictactoe application made with React.

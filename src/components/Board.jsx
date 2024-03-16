@@ -8,6 +8,7 @@ const BoardWrapper = styled.div`
   justify-content: center;
   align-items: center;
   background-color: transparent;
+  color: red;
 `;
 
 
@@ -44,8 +45,10 @@ export function Board() {
 
     return (
         <BoardWrapper>
-            <div className="f2 mt5">
-                <div className="status mb4">{status}</div>
+            <div>
+                <div className="status mt5 mb3 f1 red hover-green">
+                    {status}
+                </div>
                 <div className="board-row">
                     <Square value={squares[0]} onSquareClick={() => handleClick(0)}></Square>
                     <Square value={squares[1]} onSquareClick={() => handleClick(1)}></Square>
